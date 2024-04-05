@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <title>Marketplace</title>
+  </head>
+  <body>
+    <section class="header">
+      <div class="logo">
+        <img src="img/logo.png" alt="" />
+      </div>
+      <div class="tools">
+        <img src="img/menu.png" alt="" />
+        <input type="text" id="searchInput" placeholder="Buscar productos..." />
+        <img src="img/profile.png" alt="" />
+        <button class="btn-market"><img src="img/market.png" alt="" /></button>
+      </div>
+      <div class="title">
+        <h1>MI TIENDA</h1>
+      </div>
+    </section>
+    <section class="categories">
+      <button>Electronics</button>
+      <button>Jewerly</button>
+      <button>Mens</button>
+      <button>Women</button>
+    </section>
+    <section class="carts">
+      <div class="sectionCarts"></div>
+    </section>
+
+    <section class="socialMedia">
+      <img src="img/whatsapp.png" alt="" />
+      <img src="img/facebook.png" alt="" />
+      <img src="img/instagram.png" alt="" />
+    </section>
+
+    <div id="modal" class="modal">
+      <button id="close-modal" class="close-modal">X</button>
+      <img src="" alt="" class="img-modal" />
+
+      <h2>Camiseta</h2>
+      <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum dicta
+        debitis molestiae fuga? Sit recusandae quibusdam ducimus quis
+        consequuntur deleniti?
+      </p>
+      <h3>Category: Clothes</h3>
+      <h4>Price: $60000</h4>
+      <button class="btn-modal">Añadir al carrito</button>
+    </div>
+
+    <div class="containerShop">
+      <div class="containerShop-title">
+        <h2>PRODUCTOS AÑADIDOS</h2>
+        <button class="close-market">X</button>
+      </div>
+      <div class="containerCopy"></div>
+      <img src="" alt="" class="cart-img" />
+      <div class="cart-info">
+        <h2 class="cart-title"></h2>
+        <p class="cart-description"></p>
+        <h3 class="cart-category"></h3>
+        <h4 class="cart-price"></h4>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
